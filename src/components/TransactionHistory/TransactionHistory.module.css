@@ -1,0 +1,30 @@
+.transactionHistory {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 600px;
+  margin: 60px auto;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+  background: white;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.tableHeader {
+  text-transform: uppercase;
+  background-color: rgb(39, 240, 223);
+  padding: 10px;
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableRow:nth-last-of-type(even) {
+  background-color: rgb(232, 250, 249);
+}
+
+.tableData {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+}
